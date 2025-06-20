@@ -81,6 +81,11 @@ const Hero = () => {
                     </div>
                 </div>
             </section>
+            
+            <div className="video absolute inset-0">
+                <video src="/videos/input.mp4"
+                       muted/>
+            </div>
 
         </>
     );
