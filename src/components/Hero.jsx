@@ -77,7 +77,9 @@ const Hero = () => {
 
             videoRef.current.onloadedmetadata = () => {
                tl.to(videoRef.current, {
-                   currentTime: videoRef.current.duration
+                   currentTime: videoRef.current.duration,
+                   scale: 0.9, // Add a slight zoom out effect (scale down to 90%)
+                   ease: "none"
                })
             }
 
