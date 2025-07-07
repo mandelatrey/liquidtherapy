@@ -45,7 +45,7 @@ const Art = () => {
                         ))}
                     </ul>
 
-                    <div className="cocktail-img">
+                    <div className="cocktail-img px-4">
                         <img src="/images/under-img.jpg" alt="cocktail" 
                         className='abs-center masked-img size-full object-contain'/>
                     </div>
@@ -60,7 +60,7 @@ const Art = () => {
                     </ul>
                 </div>
 
-                <div className="masked-container py-16">
+                <div className="masked-container xl:py-16 lg:py-14 md:py-13 sm:py-10">
                     <h2 className="will-fade">
                         Sip Worthy Perfection
                     </h2>
