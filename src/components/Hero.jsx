@@ -70,7 +70,7 @@ const Hero = () => {
                     start: startValue,
                     end: endValue,
                     scrub: true,
-                    pin: true,
+                    // Removed pin: true to preserve CSS positioning
 
                 }
             })
@@ -121,9 +121,9 @@ const Hero = () => {
                 </div>
             </section>
 
-            <div className="video absolute inset-0">
+            	<div className="video">
                 <video 
-                    ref={videoRef} 
+                    ref={videoRef}
                     src="/videos/output.mp4"
                     muted 
                     playsInline 
